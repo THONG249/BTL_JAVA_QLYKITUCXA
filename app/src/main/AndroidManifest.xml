@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.baitaplon_nhom7_kytucxa">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BaiTapLon_Nhom7_KyTucXa">
+        <activity android:name=".Activity.TaiKhoanactivity"></activity>
+        <activity android:name=".Activity.Dangky" />
+        <activity android:name=".Activity.QuanliPhong" />
+        <activity android:name=".Activity.Home" />
+        <activity android:name=".Activity.xemdanhsachsinhvien" />
+        <activity android:name=".Activity.DuyTriThietBiActivity" />
+        <activity android:name=".Activity.DienNuocActivity" />
+        <activity android:name=".Activity.Nhom7Activity" />
+        <activity android:name=".Activity.ThietBiActivity" />
+        <activity android:name=".Activity.ThanhToanActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_selecter">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:id="@+id/tvTenTB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên thiết bị"
+            android:textSize="20sp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:id="@+id/textview8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xuất xứ: " />
+
+        <TextView
+            android:id="@+id/tvXuatXu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="xuất xứ" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày nhập: "
+            android:layout_marginLeft="24dp"/>
+
+        <TextView
+            android:id="@+id/tvNgayNhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ngày nhập"
+            />
+    </TableRow>
+
+</LinearLayout>

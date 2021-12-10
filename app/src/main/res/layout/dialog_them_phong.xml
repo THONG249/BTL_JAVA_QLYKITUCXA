@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Sửa"
+        android:textColor="@color/black"
+        android:background="@color/teal_200"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:text="Mã phòng:"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:numeric="integer"
+            android:id="@+id/edtMaPhong"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="Số giường:"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:numeric="integer"
+            android:id="@+id/edtSogiuong"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:text="Số người:"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:numeric="integer"
+            android:id="@+id/edtSonguoi"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center_vertical"
+            android:text="Loại phòng: "
+
+            />
+
+        <CheckBox
+            android:text="Phòng VIP "
+            android:id="@+id/ckVIP"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"/>
+        <CheckBox
+            android:text="Phòng thường "
+            android:id="@+id/ckThuong"
+            android:layout_marginLeft="5dp"
+            android:textSize="13sp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:weightSum="2">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_height="wrap_content"
+                android:text="Thêm"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/btnThem"
+                android:backgroundTint="@color/teal_700"
+                style="@style/Theme.Design"
+                />
+
+
+            <Button
+                android:id="@+id/btnThoat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Thoát"
+                style="@style/Theme.Design"
+                android:layout_gravity="center_vertical"
+                android:backgroundTint="@color/teal_700"
+
+                />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

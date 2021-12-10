@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Ma sinh vien:"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:textColor="#21211f"
+        android:id="@+id/txtMasv"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Ten sinh vien"
+        android:layout_below="@+id/txtMasv"
+        android:textColor="#21211f"
+        android:id="@+id/txtTensv"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Lop"
+        android:layout_below="@+id/txtTensv"
+        android:textColor="#21211f"
+        android:id="@+id/txtLop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Khoa"
+        android:layout_below="@+id/txtLop"
+        android:textColor="#21211f"
+        android:id="@+id/txtKhoa"/>
+</RelativeLayout>

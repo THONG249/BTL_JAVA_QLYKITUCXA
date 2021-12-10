@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"
+        android:text="Ma phong ban"
+        android:textStyle="bold"
+        android:textColor="#21211f"
+        android:id="@+id/txtMaphong"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="So giuong"
+        android:layout_below="@+id/txtMaphong"
+        android:textColor="#21211f"
+        android:id="@+id/txtSogiuong"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="So nguoi"
+        android:layout_below="@+id/txtSogiuong"
+        android:textColor="#21211f"
+        android:id="@+id/txtSonguoi"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="So giuong"
+        android:layout_below="@+id/txtSonguoi"
+        android:textColor="#21211f"
+        android:id="@+id/txtLoaiphong"/>
+</RelativeLayout>

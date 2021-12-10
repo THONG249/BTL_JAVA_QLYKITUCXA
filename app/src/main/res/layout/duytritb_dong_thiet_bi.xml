@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_selecter">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:id="@+id/tvTenThietBi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên thiết bị"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textview7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:text="Tình trạng: "
+            android:textColor="#337AB7" />
+
+        <TextView
+            android:id="@+id/tvTinhTrang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#337AB7" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:id="@+id/textview8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phòng: " />
+
+        <TextView
+            android:id="@+id/tvTenPhong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tên phòng" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngày lắp đặt: "
+            android:layout_marginLeft="24dp"/>
+
+        <TextView
+            android:id="@+id/tvNgayLapDat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ngày lắp đặt"
+            />
+    </TableRow>
+
+</LinearLayout>
